@@ -1,0 +1,184 @@
+.style-input:focus {
+  border-color: #139f12 !important;
+  box-shadow: 0 0.5rem 0.5rem rgba(122, 211, 20, 0.2) !important;
+}
+.loginpage {
+  height: 100vh;
+  background: linear-gradient(270deg, #a6f2b3 0%, #0c920c 100%);
+}
+.btn_style {
+  background: linear-gradient(270deg, #75db86 0%, #0c920c 100%);
+  border: none !important;
+  height: 45;
+}
+.bg-color {
+  background: linear-gradient(270deg, #75db86 0%, #0c920c 100%);
+}
+.forget_password {
+  font-size: 13px;
+  margin-top: 10px;
+  text-align: center;
+}
+.form-control-lg {
+  font-size: 15px !important;
+}
+.style_image {
+  align-self: center !important;
+}
+.card_style {
+  border-radius: 10px !important;
+  width: 40%;
+  margin-top: 90px;
+}
+.card_container {
+  display: flex;
+  justify-content: center !important;
+}
+@media (max-width: 984px) {
+  .card_style {
+    width: 100%;
+  }
+}
+@media (max-width: 454px) {
+  .image_style {
+    width: 150px;
+  }
+}
+.form-check-input:checked[type="checkbox"] {
+  background-color: #139f12;
+  border: none;
+}
+.hover-link:hover {
+  background: linear-gradient(270deg, #75db86 0%, #0c920c 100%);
+}
+.hover-subitem:hover {
+  background: linear-gradient(270deg, #75db86 0%, #0c920c 100%);
+}
+
+/* //sidebar */
+
+.sidebar #sidebarToggle {
+
+  margin-bottom: 0px !important;
+
+  margin-left: 10px !important;
+}
+
+.bg-gradient-primary {
+  background-image: linear-gradient(
+    270deg,
+    #75db86 0%,
+    #0c920c 100%
+  ) !important;
+  background-size: cover;
+}
+.color_heading{
+  color:#0c920c
+}
+/* .table-striped tbody tr:nth-of-type(odd) {
+  background-color: linear-gradient(270deg, #75db86 0%, #0c920c 100%) !important;
+} */
+.table-striped tbody tr:nth-of-type(odd):hover {
+  background: -webkit-gradient(linear, left top, right top, color-stop(100%,#0c920c ), color-stop(0%,#75db86 )) !important
+}
+.table-bordered td, .table-bordered th {
+  border: none !important
+}
+.color{
+  background: -webkit-gradient(linear, right top, left top, color-stop(100%,#0c920c ), color-stop(0%,#75db86 ))
+}
+.tablehead{
+  color:#fff !important
+}
+.table-bordered>:not(caption)>* {
+  border-width: 0px !important
+}
+@media (max-width: 576px) {
+  .table-responsive {
+    overflow-x: auto;
+  }
+}
+.form-select-lg {
+
+
+  font-size: 15px !important;
+  border-radius: 0.5rem;
+}
+@media (max-width: 576px) {
+  .style {
+    display: block !important;
+  
+  }
+}
+@media (max-width: 576px) {
+  .btn_style1 {
+  height:50px !important
+  
+  }
+}
+.btn_style1{
+  border: none !important;
+  background: linear-gradient(270deg, #75db86 0%, #0c920c 100%);
+}
+.style{
+  display: flex 
+}
+.table{
+  --bs-table-hover-color: #fff !important
+}
+.errormsg{
+  color: red;
+  font-size: 13px;
+  font-weight: 600;
+}
+.table {
+ 
+  color: #000 !important;
+}
+.table-bordered>:not(caption)>*:hover {
+  background: linear-gradient(270deg, #75db86 0%, #0c920c 100%);
+}
+.form_style{
+  width: 30%;
+}
+@media (max-width: 600px) {
+  .form_style{
+    width: 100%;
+  }
+}
+.modellabel{
+  color: #000;
+  font-weight: 500;
+}
+
+/* Styles for wrapping the search box */
+
+.main {
+  width: 50%;
+  margin: 50px auto;
+}
+
+/* Bootstrap 4 text input with search icon */
+
+/* .has-search .form-control {
+  padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
+} */
+
+.form-control-feedback{
+  position: absolute;
+ top: 50% ;
+ right: 0.5rem;
+  transform: translateY(-50%)
+}
